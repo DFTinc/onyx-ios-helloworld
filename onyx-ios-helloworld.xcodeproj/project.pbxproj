@@ -9,12 +9,33 @@
 /* Begin PBXBuildFile section */
 		4F7C62E01D14837A005939C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7C62DF1D14837A005939C6 /* main.m */; };
 		4F7C62E31D14837A005939C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7C62E21D14837A005939C6 /* AppDelegate.m */; };
-		4F7C62E61D14837A005939C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7C62E51D14837A005939C6 /* ViewController.m */; };
+		4F7C62E61D14837A005939C6 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F7C62E51D14837A005939C6 /* ViewController.mm */; };
 		4F7C62E91D14837A005939C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F7C62E71D14837A005939C6 /* Main.storyboard */; };
 		4F7C62EB1D14837A005939C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F7C62EA1D14837A005939C6 /* Assets.xcassets */; };
 		4F7C62EE1D14837A005939C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F7C62EC1D14837A005939C6 /* LaunchScreen.storyboard */; };
 		4F7C62F91D14837B005939C6 /* onyx_ios_helloworldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7C62F81D14837B005939C6 /* onyx_ios_helloworldTests.m */; };
 		4F7C63041D14837B005939C6 /* onyx_ios_helloworldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7C63031D14837B005939C6 /* onyx_ios_helloworldUITests.m */; };
+		4F7C63251D1483AB005939C6 /* onyx-core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7C63121D1483AB005939C6 /* onyx-core.framework */; };
+		4F7C63261D1483AB005939C6 /* OnyxKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7C63131D1483AB005939C6 /* OnyxKit.framework */; };
+		4F7C63271D1483AB005939C6 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7C63141D1483AB005939C6 /* opencv2.framework */; };
+		4F7C63281D1483AB005939C6 /* black-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F7C63161D1483AB005939C6 /* black-background.jpg */; };
+		4F7C63291D1483AB005939C6 /* blue-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F7C63171D1483AB005939C6 /* blue-background.jpg */; };
+		4F7C632A1D1483AB005939C6 /* hand.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F7C63181D1483AB005939C6 /* hand.png */; };
+		4F7C632B1D1483AB005939C6 /* leftInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F7C63191D1483AB005939C6 /* leftInfo.png */; };
+		4F7C632C1D1483AB005939C6 /* onyx 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F7C631A1D1483AB005939C6 /* onyx 2.png */; };
+		4F7C632D1D1483AB005939C6 /* onyx.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F7C631B1D1483AB005939C6 /* onyx.png */; };
+		4F7C632E1D1483AB005939C6 /* page1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F7C631C1D1483AB005939C6 /* page1.png */; };
+		4F7C632F1D1483AB005939C6 /* page2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F7C631D1D1483AB005939C6 /* page2.png */; };
+		4F7C63301D1483AB005939C6 /* page3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F7C631E1D1483AB005939C6 /* page3.png */; };
+		4F7C63311D1483AB005939C6 /* page4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F7C631F1D1483AB005939C6 /* page4.png */; };
+		4F7C63321D1483AB005939C6 /* page5.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F7C63201D1483AB005939C6 /* page5.png */; };
+		4F7C63331D1483AB005939C6 /* rightInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F7C63211D1483AB005939C6 /* rightInfo.png */; };
+		4F7C63341D1483AB005939C6 /* sidebar.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F7C63221D1483AB005939C6 /* sidebar.png */; };
+		4F7C63351D1483AB005939C6 /* white_onyx embossed.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F7C63231D1483AB005939C6 /* white_onyx embossed.png */; };
+		4F7C63361D1483AB005939C6 /* wholeHand.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F7C63241D1483AB005939C6 /* wholeHand.png */; };
+		4F7C63381D1483C8005939C6 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7C63371D1483C8005939C6 /* CoreMedia.framework */; };
+		4F7C633A1D1483D0005939C6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7C63391D1483D0005939C6 /* AVFoundation.framework */; };
+		4F7C633C1D1483D9005939C6 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7C633B1D1483D9005939C6 /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +61,7 @@
 		4F7C62E11D14837A005939C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4F7C62E21D14837A005939C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4F7C62E41D14837A005939C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4F7C62E51D14837A005939C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4F7C62E51D14837A005939C6 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		4F7C62E81D14837A005939C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F7C62EA1D14837A005939C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F7C62ED1D14837A005939C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +72,27 @@
 		4F7C62FF1D14837B005939C6 /* onyx-ios-helloworldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "onyx-ios-helloworldUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F7C63031D14837B005939C6 /* onyx_ios_helloworldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = onyx_ios_helloworldUITests.m; sourceTree = "<group>"; };
 		4F7C63051D14837B005939C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F7C63121D1483AB005939C6 /* onyx-core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "onyx-core.framework"; sourceTree = "<group>"; };
+		4F7C63131D1483AB005939C6 /* OnyxKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OnyxKit.framework; sourceTree = "<group>"; };
+		4F7C63141D1483AB005939C6 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		4F7C63161D1483AB005939C6 /* black-background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "black-background.jpg"; sourceTree = "<group>"; };
+		4F7C63171D1483AB005939C6 /* blue-background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "blue-background.jpg"; sourceTree = "<group>"; };
+		4F7C63181D1483AB005939C6 /* hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hand.png; sourceTree = "<group>"; };
+		4F7C63191D1483AB005939C6 /* leftInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftInfo.png; sourceTree = "<group>"; };
+		4F7C631A1D1483AB005939C6 /* onyx 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "onyx 2.png"; sourceTree = "<group>"; };
+		4F7C631B1D1483AB005939C6 /* onyx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onyx.png; sourceTree = "<group>"; };
+		4F7C631C1D1483AB005939C6 /* page1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page1.png; sourceTree = "<group>"; };
+		4F7C631D1D1483AB005939C6 /* page2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page2.png; sourceTree = "<group>"; };
+		4F7C631E1D1483AB005939C6 /* page3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page3.png; sourceTree = "<group>"; };
+		4F7C631F1D1483AB005939C6 /* page4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page4.png; sourceTree = "<group>"; };
+		4F7C63201D1483AB005939C6 /* page5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page5.png; sourceTree = "<group>"; };
+		4F7C63211D1483AB005939C6 /* rightInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightInfo.png; sourceTree = "<group>"; };
+		4F7C63221D1483AB005939C6 /* sidebar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sidebar.png; sourceTree = "<group>"; };
+		4F7C63231D1483AB005939C6 /* white_onyx embossed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white_onyx embossed.png"; sourceTree = "<group>"; };
+		4F7C63241D1483AB005939C6 /* wholeHand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wholeHand.png; sourceTree = "<group>"; };
+		4F7C63371D1483C8005939C6 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		4F7C63391D1483D0005939C6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4F7C633B1D1483D9005939C6 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +100,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F7C633C1D1483D9005939C6 /* AssetsLibrary.framework in Frameworks */,
+				4F7C633A1D1483D0005939C6 /* AVFoundation.framework in Frameworks */,
+				4F7C63381D1483C8005939C6 /* CoreMedia.framework in Frameworks */,
+				4F7C63271D1483AB005939C6 /* opencv2.framework in Frameworks */,
+				4F7C63251D1483AB005939C6 /* onyx-core.framework in Frameworks */,
+				4F7C63261D1483AB005939C6 /* OnyxKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +129,8 @@
 		4F7C62D21D14837A005939C6 = {
 			isa = PBXGroup;
 			children = (
+				4F7C633D1D1483DE005939C6 /* Frameworks */,
+				4F7C63111D1483AB005939C6 /* Onyx */,
 				4F7C62DD1D14837A005939C6 /* onyx-ios-helloworld */,
 				4F7C62F71D14837B005939C6 /* onyx-ios-helloworldTests */,
 				4F7C63021D14837B005939C6 /* onyx-ios-helloworldUITests */,
@@ -104,7 +154,7 @@
 				4F7C62E11D14837A005939C6 /* AppDelegate.h */,
 				4F7C62E21D14837A005939C6 /* AppDelegate.m */,
 				4F7C62E41D14837A005939C6 /* ViewController.h */,
-				4F7C62E51D14837A005939C6 /* ViewController.m */,
+				4F7C62E51D14837A005939C6 /* ViewController.mm */,
 				4F7C62E71D14837A005939C6 /* Main.storyboard */,
 				4F7C62EA1D14837A005939C6 /* Assets.xcassets */,
 				4F7C62EC1D14837A005939C6 /* LaunchScreen.storyboard */,
@@ -138,6 +188,49 @@
 				4F7C63051D14837B005939C6 /* Info.plist */,
 			);
 			path = "onyx-ios-helloworldUITests";
+			sourceTree = "<group>";
+		};
+		4F7C63111D1483AB005939C6 /* Onyx */ = {
+			isa = PBXGroup;
+			children = (
+				4F7C63121D1483AB005939C6 /* onyx-core.framework */,
+				4F7C63131D1483AB005939C6 /* OnyxKit.framework */,
+				4F7C63141D1483AB005939C6 /* opencv2.framework */,
+				4F7C63151D1483AB005939C6 /* Resources */,
+			);
+			path = Onyx;
+			sourceTree = "<group>";
+		};
+		4F7C63151D1483AB005939C6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4F7C63161D1483AB005939C6 /* black-background.jpg */,
+				4F7C63171D1483AB005939C6 /* blue-background.jpg */,
+				4F7C63181D1483AB005939C6 /* hand.png */,
+				4F7C63191D1483AB005939C6 /* leftInfo.png */,
+				4F7C631A1D1483AB005939C6 /* onyx 2.png */,
+				4F7C631B1D1483AB005939C6 /* onyx.png */,
+				4F7C631C1D1483AB005939C6 /* page1.png */,
+				4F7C631D1D1483AB005939C6 /* page2.png */,
+				4F7C631E1D1483AB005939C6 /* page3.png */,
+				4F7C631F1D1483AB005939C6 /* page4.png */,
+				4F7C63201D1483AB005939C6 /* page5.png */,
+				4F7C63211D1483AB005939C6 /* rightInfo.png */,
+				4F7C63221D1483AB005939C6 /* sidebar.png */,
+				4F7C63231D1483AB005939C6 /* white_onyx embossed.png */,
+				4F7C63241D1483AB005939C6 /* wholeHand.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4F7C633D1D1483DE005939C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F7C63371D1483C8005939C6 /* CoreMedia.framework */,
+				4F7C63391D1483D0005939C6 /* AVFoundation.framework */,
+				4F7C633B1D1483D9005939C6 /* AssetsLibrary.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +336,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F7C63361D1483AB005939C6 /* wholeHand.png in Resources */,
+				4F7C63321D1483AB005939C6 /* page5.png in Resources */,
 				4F7C62EE1D14837A005939C6 /* LaunchScreen.storyboard in Resources */,
+				4F7C63291D1483AB005939C6 /* blue-background.jpg in Resources */,
+				4F7C632F1D1483AB005939C6 /* page2.png in Resources */,
+				4F7C632D1D1483AB005939C6 /* onyx.png in Resources */,
+				4F7C632A1D1483AB005939C6 /* hand.png in Resources */,
+				4F7C632B1D1483AB005939C6 /* leftInfo.png in Resources */,
+				4F7C63281D1483AB005939C6 /* black-background.jpg in Resources */,
+				4F7C63341D1483AB005939C6 /* sidebar.png in Resources */,
+				4F7C632E1D1483AB005939C6 /* page1.png in Resources */,
+				4F7C63301D1483AB005939C6 /* page3.png in Resources */,
+				4F7C632C1D1483AB005939C6 /* onyx 2.png in Resources */,
 				4F7C62EB1D14837A005939C6 /* Assets.xcassets in Resources */,
+				4F7C63311D1483AB005939C6 /* page4.png in Resources */,
+				4F7C63351D1483AB005939C6 /* white_onyx embossed.png in Resources */,
 				4F7C62E91D14837A005939C6 /* Main.storyboard in Resources */,
+				4F7C63331D1483AB005939C6 /* rightInfo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +378,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F7C62E61D14837A005939C6 /* ViewController.m in Sources */,
+				4F7C62E61D14837A005939C6 /* ViewController.mm in Sources */,
 				4F7C62E31D14837A005939C6 /* AppDelegate.m in Sources */,
 				4F7C62E01D14837A005939C6 /* main.m in Sources */,
 			);
@@ -413,8 +521,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Onyx",
+				);
 				INFOPLIST_FILE = "onyx-ios-helloworld/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dft.onyx-ios-helloworld";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -424,8 +541,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Onyx",
+				);
 				INFOPLIST_FILE = "onyx-ios-helloworld/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dft.onyx-ios-helloworld";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
