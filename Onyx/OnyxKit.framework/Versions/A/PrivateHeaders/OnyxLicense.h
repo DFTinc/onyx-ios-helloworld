@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-//#import "Reachability.h"
+//#import "NetworkReachability.h"
 #import "NetworkUtil.h"
 
 //#include <onyx-core/License.h>
@@ -35,8 +35,8 @@
 @property bool isLicenseTypeSet;
 @property bool hasRecievedResponse;
 
-@property Reachability* internetReachable;
-@property Reachability* hostReachable;
+@property NetworkReachability* internetReachable;
+@property NetworkReachability* hostReachable;
 
 @property BOOL internetActive;
 @property BOOL hostActive;

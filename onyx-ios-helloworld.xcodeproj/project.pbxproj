@@ -16,7 +16,6 @@
 		4F7C62F91D14837B005939C6 /* onyx_ios_helloworldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7C62F81D14837B005939C6 /* onyx_ios_helloworldTests.m */; };
 		4F7C63041D14837B005939C6 /* onyx_ios_helloworldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7C63031D14837B005939C6 /* onyx_ios_helloworldUITests.m */; };
 		4F7C63251D1483AB005939C6 /* onyx-core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7C63121D1483AB005939C6 /* onyx-core.framework */; };
-		4F7C63261D1483AB005939C6 /* OnyxKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7C63131D1483AB005939C6 /* OnyxKit.framework */; };
 		4F7C63271D1483AB005939C6 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7C63141D1483AB005939C6 /* opencv2.framework */; };
 		4F7C63281D1483AB005939C6 /* black-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F7C63161D1483AB005939C6 /* black-background.jpg */; };
 		4F7C63291D1483AB005939C6 /* blue-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F7C63171D1483AB005939C6 /* blue-background.jpg */; };
@@ -36,6 +35,7 @@
 		4F7C63381D1483C8005939C6 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7C63371D1483C8005939C6 /* CoreMedia.framework */; };
 		4F7C633A1D1483D0005939C6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7C63391D1483D0005939C6 /* AVFoundation.framework */; };
 		4F7C633C1D1483D9005939C6 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7C633B1D1483D9005939C6 /* AssetsLibrary.framework */; };
+		4FD594EF1D46680C00B6849A /* OnyxKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD594EE1D46680C00B6849A /* OnyxKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,7 +73,6 @@
 		4F7C63031D14837B005939C6 /* onyx_ios_helloworldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = onyx_ios_helloworldUITests.m; sourceTree = "<group>"; };
 		4F7C63051D14837B005939C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F7C63121D1483AB005939C6 /* onyx-core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "onyx-core.framework"; sourceTree = "<group>"; };
-		4F7C63131D1483AB005939C6 /* OnyxKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OnyxKit.framework; sourceTree = "<group>"; };
 		4F7C63141D1483AB005939C6 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		4F7C63161D1483AB005939C6 /* black-background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "black-background.jpg"; sourceTree = "<group>"; };
 		4F7C63171D1483AB005939C6 /* blue-background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "blue-background.jpg"; sourceTree = "<group>"; };
@@ -93,6 +92,7 @@
 		4F7C63371D1483C8005939C6 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		4F7C63391D1483D0005939C6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		4F7C633B1D1483D9005939C6 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		4FD594EE1D46680C00B6849A /* OnyxKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OnyxKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +101,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F7C633C1D1483D9005939C6 /* AssetsLibrary.framework in Frameworks */,
+				4FD594EF1D46680C00B6849A /* OnyxKit.framework in Frameworks */,
 				4F7C633A1D1483D0005939C6 /* AVFoundation.framework in Frameworks */,
 				4F7C63381D1483C8005939C6 /* CoreMedia.framework in Frameworks */,
 				4F7C63271D1483AB005939C6 /* opencv2.framework in Frameworks */,
 				4F7C63251D1483AB005939C6 /* onyx-core.framework in Frameworks */,
-				4F7C63261D1483AB005939C6 /* OnyxKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,8 +193,8 @@
 		4F7C63111D1483AB005939C6 /* Onyx */ = {
 			isa = PBXGroup;
 			children = (
+				4FD594EE1D46680C00B6849A /* OnyxKit.framework */,
 				4F7C63121D1483AB005939C6 /* onyx-core.framework */,
-				4F7C63131D1483AB005939C6 /* OnyxKit.framework */,
 				4F7C63141D1483AB005939C6 /* opencv2.framework */,
 				4F7C63151D1483AB005939C6 /* Resources */,
 			);
@@ -528,10 +528,8 @@
 				);
 				INFOPLIST_FILE = "onyx-ios-helloworld/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-all_load",
-				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dft.onyx-ios-helloworld";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -548,10 +546,8 @@
 				);
 				INFOPLIST_FILE = "onyx-ios-helloworld/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-all_load",
-				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dft.onyx-ios-helloworld";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -622,6 +618,7 @@
 				4F7C630A1D14837B005939C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F7C630B1D14837B005939C6 /* Build configuration list for PBXNativeTarget "onyx-ios-helloworldTests" */ = {
 			isa = XCConfigurationList;
@@ -630,6 +627,7 @@
 				4F7C630D1D14837B005939C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F7C630E1D14837B005939C6 /* Build configuration list for PBXNativeTarget "onyx-ios-helloworldUITests" */ = {
 			isa = XCConfigurationList;
@@ -638,6 +636,7 @@
 				4F7C63101D14837B005939C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
