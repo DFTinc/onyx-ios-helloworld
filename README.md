@@ -51,7 +51,7 @@ Click on your project to display your settings. Under the 'General' tab scroll d
 
 Make sure you set 'Other Linker Flags' in your target's 'Build Settings' to:
 
-- -ObjC - all_load
+- -ObjC
 
 Click on your project to display settings. Under 'Build Settings' scroll down to 'Linking' and find the 'Other Linker Flags' setting. Click '>' to expand and then click '+' to add the linker flag.
 
