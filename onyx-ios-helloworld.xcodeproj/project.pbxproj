@@ -35,7 +35,7 @@
 		4F7C63381D1483C8005939C6 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7C63371D1483C8005939C6 /* CoreMedia.framework */; };
 		4F7C633A1D1483D0005939C6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7C63391D1483D0005939C6 /* AVFoundation.framework */; };
 		4F7C633C1D1483D9005939C6 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7C633B1D1483D9005939C6 /* AssetsLibrary.framework */; };
-		CCCF86441DFF819D00CDA25B /* OnyxKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCCF86431DFF819D00CDA25B /* OnyxKit.framework */; };
+		CC6A468C1E4CC72C00656373 /* OnyxKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC6A468B1E4CC72C00656373 /* OnyxKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,7 +92,7 @@
 		4F7C63371D1483C8005939C6 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		4F7C63391D1483D0005939C6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		4F7C633B1D1483D9005939C6 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
-		CCCF86431DFF819D00CDA25B /* OnyxKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OnyxKit.framework; sourceTree = "<group>"; };
+		CC6A468B1E4CC72C00656373 /* OnyxKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OnyxKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F7C633C1D1483D9005939C6 /* AssetsLibrary.framework in Frameworks */,
-				CCCF86441DFF819D00CDA25B /* OnyxKit.framework in Frameworks */,
+				CC6A468C1E4CC72C00656373 /* OnyxKit.framework in Frameworks */,
 				4F7C633A1D1483D0005939C6 /* AVFoundation.framework in Frameworks */,
 				4F7C63381D1483C8005939C6 /* CoreMedia.framework in Frameworks */,
 				4F7C63271D1483AB005939C6 /* opencv2.framework in Frameworks */,
@@ -193,7 +193,7 @@
 		4F7C63111D1483AB005939C6 /* Onyx */ = {
 			isa = PBXGroup;
 			children = (
-				CCCF86431DFF819D00CDA25B /* OnyxKit.framework */,
+				CC6A468B1E4CC72C00656373 /* OnyxKit.framework */,
 				4F7C63121D1483AB005939C6 /* onyx-core.framework */,
 				4F7C63141D1483AB005939C6 /* opencv2.framework */,
 				4F7C63151D1483AB005939C6 /* Resources */,

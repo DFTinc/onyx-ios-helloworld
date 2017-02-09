@@ -18,9 +18,7 @@
     NSString *baseurl;
     
     NSString *deviceKey;
-    //NSUUID *deviceUDID;
     NSString *deviceUDID;
-
     
     NSInteger licenseType;
     
