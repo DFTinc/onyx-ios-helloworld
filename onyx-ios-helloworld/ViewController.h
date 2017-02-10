@@ -18,6 +18,7 @@
 @property NSData *WSQData;
 @property NSData *invertedMirroredWSQData;
 
+
 @property ProcessedFingerprint *fp;
 
 - (IBAction)capture:(id)sender;

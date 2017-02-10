@@ -42,6 +42,8 @@
     
     _enhancedImage.image = [fingerprint blackWhiteProcessed];
     
+    _WSQData = [fingerprint WSQ];
+    
     _detailTextView.text = [_detailTextView.text stringByAppendingString:[NSString stringWithFormat:@"%zdb\n", malloc_size((__bridge const void *) fingerprint)]];
     
     _detailTextView.text = [_detailTextView.text stringByAppendingString:[NSString stringWithFormat:@"size: %fx%f\n", fingerprint.size.width, fingerprint.size.height]];
@@ -60,7 +62,7 @@
     vc.state = ONYX_ENROLL;
     vc.showTutorial = false;
     vc.hideHandSelect = false;
-    vc.license = @"xxxx-xxxx-xxxx-x-x";
+    vc.license = @"5844-3213-7705-1-2";
     vc.showDebug = false;
     
     vc.focusMeasurementRequirement = 0.1;
@@ -80,6 +82,14 @@
     UIImageWriteToSavedPhotosAlbum([_fp enhancedImage], nil, nil, nil);
     UIImageWriteToSavedPhotosAlbum([_fp invertedMirroredProcessedImage], nil, nil, nil);
     UIImageWriteToSavedPhotosAlbum([_fp blackWhiteProcessed], nil, nil, nil);
+    
+    NSString *docsDir;
+    NSArray *dirPaths;
+    
+    dirPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    docsDir = [dirPaths objectAtIndex:0];
+    NSString *databasePath = [[NSString alloc] initWithString: [docsDir stringByAppendingPathComponent:@"fingerprint.wsq"]];
+    [_WSQData writeToFile:databasePath atomically:YES];
     
 }
 @end
