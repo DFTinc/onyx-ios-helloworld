@@ -10,7 +10,7 @@
 //#import "NetworkReachability.h"
 #import "NetworkUtil.h"
 
-#import </Users/chatcher/Documents/xcode projects/onyx-onyx-kit-ios/OnyxKit/Licensing/DeviceUID.h>
+#import "DeviceUID.h"
 
 //#include <onyx-core/License.h>
 
@@ -18,7 +18,9 @@
     NSString *baseurl;
     
     NSString *deviceKey;
+    //NSUUID *deviceUDID;
     NSString *deviceUDID;
+
     
     NSInteger licenseType;
     
