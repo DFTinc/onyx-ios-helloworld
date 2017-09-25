@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D4002E91F7962150031E51E /* OnyxKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4002E81F7961860031E51E /* OnyxKit.framework */; };
 		4F7C62E01D14837A005939C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7C62DF1D14837A005939C6 /* main.m */; };
 		4F7C62E31D14837A005939C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7C62E21D14837A005939C6 /* AppDelegate.m */; };
 		4F7C62E61D14837A005939C6 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F7C62E51D14837A005939C6 /* ViewController.mm */; };
@@ -35,7 +36,6 @@
 		4F7C63381D1483C8005939C6 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7C63371D1483C8005939C6 /* CoreMedia.framework */; };
 		4F7C633A1D1483D0005939C6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7C63391D1483D0005939C6 /* AVFoundation.framework */; };
 		4F7C633C1D1483D9005939C6 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7C633B1D1483D9005939C6 /* AssetsLibrary.framework */; };
-		CC8A410F1EA65BFE008D79EF /* OnyxKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8A410E1EA65BFE008D79EF /* OnyxKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +56,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D4002E81F7961860031E51E /* OnyxKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OnyxKit.framework; sourceTree = "<group>"; };
 		4F7C62DB1D14837A005939C6 /* onyx-ios-helloworld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "onyx-ios-helloworld.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F7C62DF1D14837A005939C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4F7C62E11D14837A005939C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -92,7 +93,6 @@
 		4F7C63371D1483C8005939C6 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		4F7C63391D1483D0005939C6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		4F7C633B1D1483D9005939C6 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
-		CC8A410E1EA65BFE008D79EF /* OnyxKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OnyxKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F7C633C1D1483D9005939C6 /* AssetsLibrary.framework in Frameworks */,
-				CC8A410F1EA65BFE008D79EF /* OnyxKit.framework in Frameworks */,
+				2D4002E91F7962150031E51E /* OnyxKit.framework in Frameworks */,
 				4F7C633A1D1483D0005939C6 /* AVFoundation.framework in Frameworks */,
 				4F7C63381D1483C8005939C6 /* CoreMedia.framework in Frameworks */,
 				4F7C63271D1483AB005939C6 /* opencv2.framework in Frameworks */,
@@ -193,7 +193,7 @@
 		4F7C63111D1483AB005939C6 /* Onyx */ = {
 			isa = PBXGroup;
 			children = (
-				CC8A410E1EA65BFE008D79EF /* OnyxKit.framework */,
+				2D4002E81F7961860031E51E /* OnyxKit.framework */,
 				4F7C63121D1483AB005939C6 /* onyx-core.framework */,
 				4F7C63141D1483AB005939C6 /* opencv2.framework */,
 				4F7C63151D1483AB005939C6 /* Resources */,

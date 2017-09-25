@@ -20,6 +20,10 @@
  */
 @property UIImage *sourceImage;
 /*!
+ * @brief The grayscale source image.
+ */
+@property UIImage *graySourceImage;
+/*!
  * @brief The processed image.
  */
 @property UIImage *processedImage;
@@ -36,9 +40,13 @@
  */
 @property NSData *fingerprintTemplate;
 /*!
- * @brief The WSQ data.
+ * @brief The WSQ data for preprocessed fingerprint.
  */
 @property NSData *WSQ;
+/*!
+ * @brief The WSQ data for grayscale source image.
+ */
+@property NSData *rawGrayWSQ;
 /*!
  * @brief The inverted and mirrored WSQ data.
  */

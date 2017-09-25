@@ -62,7 +62,7 @@
     vc.state = ONYX_ENROLL;
     vc.showTutorial = false;
     vc.hideHandSelect = false;
-    vc.license = @"xxxx-xxxx-xxxx-x-x";
+    vc.license = @"";
     vc.showDebug = false;
     
     vc.focusMeasurementRequirement = 0.1;
